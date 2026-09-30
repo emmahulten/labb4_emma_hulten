@@ -6,7 +6,7 @@ Av Emma Hultén, 2026 */
 for (let i = 1; i <= 20; i++) {
 
     // Kontrollerar om talet är jämnt och skriver sedan ut talet
-    if (i % 2 == 0) {
+    if (i % 2 === 0) {
         console.log(i);
     }
 }
